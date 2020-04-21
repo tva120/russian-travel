@@ -6,24 +6,24 @@
     margin: 0 auto;
 
     position: absolute;
-    max-width: 382px;
+    max-width: 360px;
     top: 80%;
     left: 0;
     right: 0;
    
-    font-family: Inter;
+    font-family: 'Inter', Arial, sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
-    line-height: 26px;
+    line-height: 22px;
 
     color: #FFFFFF;
 }
 
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1023px) {
     .cover__subtitle {
-        max-width: 382px;
+        
         top: 70%;
     }
 }
@@ -31,10 +31,10 @@
 
 @media screen and (max-width: 767px) {
     .cover__subtitle {
-        max-width: 343px;
-        top: 70%;
+       
+        top: 60%;
         font-size: 14px;
-        line-height: 17px;
+        line-height: 16px;
     }
 }
 

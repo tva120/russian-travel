@@ -1,5 +1,7 @@
-@import url(./_selected/header__lang_selected_true.css);
-@import url(./_selected/header__lang_selected_false.css);
+
+@import url(./_selected-lang/header__lang_selected-lang_true.css);
+@import url(./_selected-lang/header__lang_selected-lang_false.css);
+
 
 .header__lang {
     font-weight: normal;
@@ -7,12 +9,11 @@
     line-height: 23px;
     text-align: right;
     color: #ffffff;
+    
 }
 
-.header__lang:hover {
-    transition: opacity .5s linear;
-    opacity: .7;
-}
+
+
 
 @media screen and (max-width: 767px) {
     .header__lang {
@@ -20,3 +21,4 @@
         line-height: 17px;
     }
 }
+

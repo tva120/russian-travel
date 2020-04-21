@@ -20,6 +20,7 @@
      .places__place {        
          grid-column-gap: 28px; 
          margin: 0 24px;
+         grid-template-columns: 340px 352px;
          
      }
  } 

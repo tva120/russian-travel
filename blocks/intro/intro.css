@@ -5,16 +5,30 @@
 @import url(./__title/intro__title.css);
 
 .intro {
-    max-width: 690px;
+    max-width: 984px;
     min-width: 288px;
-    width: 690px;
+    width: 90%;
     margin: 0 auto;
     padding-top: 114px;
 }
 
-@media screen and (max-width: 767px){
-.intro {
-    width: 90%;
-    margin-bottom: 64px;
+@media screen and (max-width: 1279px) {
+    .intro {
+        width: 924px;
+        margin-bottom: 28px;
+    }
 }
+
+@media screen and (max-width: 1023px) {
+    .intro {
+        width: 90%;
+        margin-bottom: 24px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .intro {
+        width: 90%;
+        margin-bottom: 0px;
+    }
 }

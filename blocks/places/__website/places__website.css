@@ -9,6 +9,7 @@
 {
 .places__website {
 
-    margin: auto 16px;
+    display: none;
 }
 }
+
