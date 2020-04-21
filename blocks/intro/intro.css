@@ -9,7 +9,7 @@
     min-width: 288px;
     width: 90%;
     margin: 0 auto;
-    padding-top: 114px;
+    padding-top: 92px;
 }
 
 @media screen and (max-width: 1279px) {
@@ -23,6 +23,7 @@
     .intro {
         width: 90%;
         margin-bottom: 24px;
+        padding-top: 88px;
     }
 }
 
@@ -30,5 +31,6 @@
     .intro {
         width: 90%;
         margin-bottom: 0px;
+        padding-top: 64px;
     }
 }
