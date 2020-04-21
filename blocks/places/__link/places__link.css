@@ -1,0 +1,17 @@
+.places__link{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+}
+
+@media screen and (max-width: 767px)
+{
+.places__link {
+
+    margin: auto 16px;
+}
+}
