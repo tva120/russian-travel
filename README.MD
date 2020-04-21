@@ -16,3 +16,4 @@
 
 *html/css*
 
+* [Ссылка на GitHub pages] (https://tva120.github.io/russian-travel/)
