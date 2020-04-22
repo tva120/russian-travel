@@ -1,24 +1,32 @@
-.cover__image{
+.cover__image {
     width: 100%;
     background-image: linear-gradient(#2A2C2F, #2A2C2F);
     opacity: 0.7;
-   
+    max-height: 740px;
 }
+
+
+@media screen and (max-width: 1279px) {
+    .cover__image {
+        min-height: 640px;
+    }
+}
+
 @media screen and (max-width: 1023px) {
-    .cover__image{
-        min-height: 480px;       
+    .cover__image {
+        min-height: 480px;
     }
 }
 
 @media screen and (max-width: 767px) {
-    .cover__image{
-        min-height: 200px;       
+    .cover__image {
+        min-height: 200px;
     }
 }
 
 
 
-.cover__link:hover .cover__image{
+.cover__link:hover .cover__image {
     background-image: linear-gradient(black, black);
     border-radius: 5px;
     opacity: 0.2;
